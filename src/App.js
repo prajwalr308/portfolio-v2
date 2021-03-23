@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Test from './components/test 3d/Test';
+import bg from '../src/components/assets/Asset 1.png'
 
 function App() {
   return (
     <div className="App">
-    <Test />
+      <img src={bg} className="img" />
     </div>
   );
 }
