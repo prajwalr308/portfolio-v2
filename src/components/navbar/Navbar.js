@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import './Navbar.css'
 
 const Navbar = () => {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true)
     function openMenu(){
         setOpen(!open)
     
@@ -10,7 +10,13 @@ const Navbar = () => {
     }
   return (
     <div className="navbar">
-        <button className="navbar__menu" onClick={openMenu}>menu</button>
+      <div className="navbar__menu">
+        <div className={open?"container":"change"} onClick={openMenu}>
+  <div className="bar1"></div>
+  <div className="bar2"></div>
+  <div className="bar3"></div>
+</div>
+</div>
       <ul className={`${open ?"navbar__lists__desktop" : "navbar__lists__mobileView"}`}>
         <li>home</li>
         <li>about me</li>
