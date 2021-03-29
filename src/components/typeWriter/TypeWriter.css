@@ -1,0 +1,10 @@
+span{
+    font-size:2em;
+    color:white
+}
+.type{
+    display:flex;
+    margin:20% 0 0 10% ;
+    
+}
+.type_static{margin-right: 0.5%;}
