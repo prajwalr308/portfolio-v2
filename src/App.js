@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <img src={bg} className="img" />
       <Navbar />
+      <></>
       <TypeWriter />
     </div>
   );

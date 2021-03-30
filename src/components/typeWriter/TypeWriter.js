@@ -11,6 +11,8 @@ const TypeWriter = () => {
   }, [count]);
   return (
     <div className="type">
+        <span className="type__name">Hi,I'm Prajwal</span>
+        <div className="type__typing">
         <span className="type_static"> I am </span>
       {count ?
     <Typist avgTypingDelay={100} delay={1000} onTypingDone={() => setCount(0)}>
@@ -21,6 +23,8 @@ const TypeWriter = () => {
       <Typist.Backspace count={10} delay={800} />
       <span>an artist</span>
     </Typist>:""}
+        </div>
+       
     </div>
   );
 };
