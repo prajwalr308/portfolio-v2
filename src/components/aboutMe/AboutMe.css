@@ -1,3 +1,13 @@
+.AboutMe {
+  position: relative;
+  left: 25%;
+  top: 40px;
+  font-size:0.7em;
+}
+.AboutMe__image {
+  width: 30%;
+}
+
 @media only screen and (min-width: 320px) {
   .AboutMe {
     position: relative;
@@ -8,19 +18,28 @@
     width: 50%;
   }
 }
-@media only screen and (min-width:768px){
-    .AboutMe{
-        position: relative;
+@media only screen and (min-width: 768px) {
+  .AboutMe {
+    position: relative;
     left: 0%;
- 
-    top: 150px;
-    display:flex;
-    flex-direction:row-reverse;
+    top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
+  }
 
-    }
+  .AboutMe__image {
+    width: 30%;
+  }
+}
 
-    .AboutMe__image {
-        width: 30%;
-      }
+@media only screen and (min-width: 1024px) {
+  .AboutMe {
+    position: relative;
+
+    top: 400px;
+   
+  }
+
+ 
 }

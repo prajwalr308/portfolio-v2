@@ -1,3 +1,44 @@
-.skill{
-    margin: 20% 0 0 50%;
+.skill {
+  margin-top: 20%;
+}
+.skill__buttons button{
+ height: 30px;
+}
+.skill__buttons__skills {
+    outline:none;
+  border: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 50%;
+}
+.skill__buttons__exp {
+  border: none;
+  outline: none;
+  border-left: 1px solid black;
+  position: absolute;
+
+  right: 0;
+  width: 50%;
+}
+.skill__buttons__skills--selected {
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    border-bottom: 2px solid rgb(0, 153, 255);
+}
+.skill__buttons__exp--selected {
+    outline: none;
+    border: none;
+    border-left: 1px solid black;
+    position: absolute;
+
+    right: 0;
+    width: 50%;
+    border-bottom: 2px solid rgb(0, 153, 255);
+  }
+@media only screen and (min-width: 320px) {
 }
