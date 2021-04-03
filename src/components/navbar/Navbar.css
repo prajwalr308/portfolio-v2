@@ -4,7 +4,7 @@
   margin-top: 0%;
   
   margin-left: 55%;
-  position: fixed;
+ 
 
   color: rgb(255, 255, 255);
   background-color: rgb(146, 206, 255);
@@ -20,10 +20,10 @@
   margin-top: 10%;
 }
 .navbar__menu {
-  position: fixed;
+
   z-index: 8;
-  margin-top: 0%;
-  margin-left: 73%;
+margin-left: 91%;
+  
 }
 .container {
   display: inline-block;
@@ -65,7 +65,7 @@
   .navbar__lists__desktop {
     display: none;
   }
-
+  
   .navbar__lists__mobileView > * {
     margin-top: 10%;
   }
