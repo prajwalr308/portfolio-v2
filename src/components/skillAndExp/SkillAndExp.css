@@ -1,5 +1,5 @@
 .skill {
-  margin-top: 20%;
+  margin-top: 2%;
   width: 100%;
 }
 .skill__buttons button{
@@ -42,7 +42,7 @@
   }
 @media only screen and (min-width: 768px) {
     .skill {
-        margin-top: 30%;
+        margin-top: 3%;
       }
     .skill__buttons__skills {
         position:relative;

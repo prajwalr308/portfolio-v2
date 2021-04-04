@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
-import './Skill.css'
+import './SkillAndExp.css'
+import Skill from './skills/Skill'
 
-const Skill = () => {
+const SkillAndExp = () => {
    const [state, setstate] = useState({
        'skillSelected':false,
        'expSelected':false,
@@ -25,10 +26,11 @@ const Skill = () => {
             
             <button className={state.expSelected ? "skill__buttons__exp--selected":"skill__buttons__exp"} onClick={expHandler}>Experience</button>
             </div>
+            <Skill />
             <div></div>
             
         </div>
     )
 }
 
-export default Skill
+export default SkillAndExp
