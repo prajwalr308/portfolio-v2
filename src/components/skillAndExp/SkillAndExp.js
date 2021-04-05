@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Exp from './exp/Exp'
 import './SkillAndExp.css'
 import Skill from './skills/Skill'
 
@@ -26,7 +27,10 @@ const SkillAndExp = () => {
             
             <button className={state.expSelected ? "skill__buttons__exp--selected":"skill__buttons__exp"} onClick={expHandler}>Experience</button>
             </div>
-            <Skill />
+            <div className="skill__skillsAndExperience">
+            {state.skillSelected ? <Skill />:<Exp />}
+            </div>
+            
             <div></div>
             
         </div>

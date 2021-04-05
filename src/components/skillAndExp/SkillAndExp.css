@@ -3,6 +3,7 @@
   width: 100%;
 }
 .skill__buttons button{
+  display: block;
  height: 30px;
 }
 .skill__buttons__skills {
@@ -46,25 +47,31 @@
       }
     .skill__buttons__skills {
         position:relative;
-        width: 20%;
+       
+        width: 25%;
     }
     .skill__buttons__exp{
         position:relative;
-
-        width: 20%;
+       
+        width: 25%;
     }
     .skill__buttons__skills--selected {
         position:relative;
-        width: 20%;
+        width: 25%;
     }
     .skill__buttons__exp--selected{
         position:relative;
 
-        width: 20%;
+        width:25%;
     }
     .skill__buttons{
        
         display:flex;
         justify-content:center;
+    }
+    .skill__skillsAndExperience{
+    width:50%;
+    position: relative;
+    left:25%;
     }
 }
