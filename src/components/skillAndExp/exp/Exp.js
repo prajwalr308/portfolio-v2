@@ -12,6 +12,7 @@ const Exp = () => {
         <div className="exp">
             <ExpCard title="webknot" body={data.body1} />
             <ExpCard title="lfs" body={data.body2} />
+            <ExpCard title="lfs" body={data.body2} />
         </div>
     )
 }
