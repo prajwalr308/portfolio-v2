@@ -6,6 +6,7 @@ import TypeWriter from './components/typeWriter/TypeWriter';
 
 import AboutMe from './components/aboutMe/AboutMe';
 import SkillAndExp from './components/skillAndExp/SkillAndExp';
+import ProjectGrid from './components/projects/ProjectGrid';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TypeWriter />
       <AboutMe />
       <SkillAndExp />
+      <ProjectGrid />
     </div>
   );
 }

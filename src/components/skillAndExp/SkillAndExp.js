@@ -20,6 +20,7 @@ const SkillAndExp = () => {
        'expSelected':true,
         })
     }
+  
     return (
         <div className="skill">
             <div className="skill__buttons">

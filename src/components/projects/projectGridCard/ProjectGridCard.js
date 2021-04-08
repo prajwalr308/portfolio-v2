@@ -1,19 +1,23 @@
-import React from 'react'
+import React from "react";
+import "./ProjectGridCard.css";
+import code from '../../../assets/coding.svg'
 
 const ProjectGridCard = () => {
-    return (
-        <div>
-            <h2>Card</h2>
+  return (
+    <div>
+   
 
-<div className="card">
-  <img src="img_avatar.png" alt="Avatar" style="width:100%" />
-  <div className="container">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
-  </div>
-</div>
+      <div className="card">
+        <img src={code} alt="Avatar" style={{width: "100%"}} />
+        <div className="card__container">
+          <h4>
+            <b>John Doe</b>
+          </h4>
+          <p>Architect & Engineer</p>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default ProjectGridCard
+export default ProjectGridCard;
