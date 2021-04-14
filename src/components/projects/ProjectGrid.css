@@ -1,14 +1,14 @@
 .ProjectGrid{
     display:grid;
     place-items: center;
-    margin-left: -15%;
+    width: 100%;
 }
 
 .ProjectGrid__grid{
  display:grid;   
- grid-template-columns: 100px 100px 100px;
+ grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 80px auto 80px; 
- column-gap: 250px;
- row-gap: 300px;
+ column-gap: 50px;
+ row-gap: 250px;
  
 }

@@ -10,6 +10,7 @@
 .container1 .card {
   position: relative;
   border-radius: 10px;
+  width: 80%;
 }
 
 .container1 .card .icon {
@@ -54,7 +55,7 @@ i {
 }
 
 .container1 .card .face {
-  width: 300px;
+
   height: 200px;
   transition: 0.5s;
 }
