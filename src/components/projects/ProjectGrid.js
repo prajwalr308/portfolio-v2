@@ -9,6 +9,8 @@ const ProjectGrid = () => {
             <ProjectGridCard />
           <ProjectGridCard />
           <ProjectGridCard />
+          </div>
+          <div className="ProjectGrid__grid2">
           <ProjectGridCard />
           <ProjectGridCard />
           <ProjectGridCard />
