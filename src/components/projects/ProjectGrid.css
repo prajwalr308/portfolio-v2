@@ -1,26 +1,36 @@
-.ProjectGrid{
-    margin-left: 10%;
-}
+
 .ProjectGrid__grid{
     display:block;   
       
     
    }
-   .ProjectGrid__grid{
+   .ProjectGrid__grid2{
     display:none;   
       
     
+   }.ProjectGrid__grid > *{
+    margin-left: 20px; 
+      
+    
    }
+   .ProjectGrid__grid2 > *{
+    margin-left: 20px; 
+      
+    
+   }
+
 @media only screen and (min-width:768px){
     .ProjectGrid__grid{
+        
         display:flex; 
-          
+          justify-content: center;
         
         
        }
        .ProjectGrid__grid2{
-        display:flex; 
           
+        display:flex; 
+        justify-content: center;
         
         
        }
