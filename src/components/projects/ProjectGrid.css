@@ -1,3 +1,7 @@
+.ProjectGrid{
+    display:grid;
+    place-items: center;
+}
 
 .ProjectGrid__grid{
     display:block;   

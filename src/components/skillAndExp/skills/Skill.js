@@ -4,6 +4,7 @@ import {Bar} from 'react-chartjs-2';
 const data = {
   labels: ['React.js', 'html', 'css', 'javascript', 'node', 'mongoDB',''],
   datasets: [
+    
     {
       label: 'skill scores',
       backgroundColor: [
@@ -42,7 +43,19 @@ const Skill = () => {
           width={100}
           height={50}
           options={{
-            maintainAspectRatio: true
+            maintainAspectRatio: true,
+            scales: {
+              xAxes: [{
+                  gridLines: {
+                      color: "rgba(0, 0, 0, 0)",
+                  }
+              }],
+              yAxes: [{
+                  gridLines: {
+                      color: "rgba(0, 0, 0, 0)",
+                  }   
+              }]
+          }
           }}
         />
       </div>
