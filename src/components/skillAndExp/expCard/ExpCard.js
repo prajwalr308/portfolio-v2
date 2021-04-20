@@ -1,11 +1,12 @@
 import React from 'react'
+import '../exp/exp.css'
 
 const ExpCard = (props) => {
     const {title,body}=props;
    
     return (
-        <div>
-            <h1>{title}</h1>
+        <div className="expCard">
+            <h1 className="heading">{title}</h1>
             <p>{body}</p>
         </div>
     )

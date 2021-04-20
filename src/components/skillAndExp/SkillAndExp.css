@@ -5,7 +5,7 @@
 .skill__buttons button{
   display: block;
  height: 30px;
-
+ color: white;
 }
 .skill__buttons__skills {
   outline:none;
@@ -14,17 +14,17 @@
   left: 0;
   right: 0;
   width: 50%;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(16, 148, 255);
   border-radius: 20px 0 0 0;
 }
 .skill__buttons__exp {
   border: none;
   outline: none;
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(255, 255, 255);
   position: absolute;
   right: 0;
   width: 50%;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(16, 148, 255);
   border-radius: 0 20px 0 0;
 }
 .skill__buttons__skills--selected {
@@ -34,20 +34,20 @@
     left: 0;
     right: 0;
     width: 50%;
-    border-bottom: 2px solid rgb(0, 153, 255);
-    background-color: rgb(243, 243, 243);
+    border-bottom: 2px solid rgb(0, 35, 151);
+    background-color: rgb(16, 148, 255);
     border-radius: 20px 0 0 0;
 }
 .skill__buttons__exp--selected {
     outline: none;
     border: none;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(255, 255, 255);
     position: absolute;
     
     right: 0;
     width: 50%;
-    border-bottom: 2px solid rgb(0, 153, 255);
-    background-color: rgb(243, 243, 243);
+    border-bottom: 2px solid rgb(0, 35, 151);
+    background-color: rgb(16, 148, 255);
     border-radius: 0 20px 0 0;
   }
 @media only screen and (min-width: 768px) {

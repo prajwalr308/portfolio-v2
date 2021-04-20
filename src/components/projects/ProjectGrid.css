@@ -1,18 +1,25 @@
 .ProjectGrid{
-    display:grid;
-    place-items: center;
+width: 80%;
+margin-top: 5%;
+margin-left: 10%;
 }
-
+.ProjectGrid__titleContainer{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.ProjectGrid__heading{
+    position: absolute;
+    z-index: -1;
+    top:0.6em
+  
+}
 .ProjectGrid__grid{
     display:block;   
       
     
    }
-   .ProjectGrid__grid2{
-    display:none;   
-      
-    
-   }.ProjectGrid__grid > *{
+   .ProjectGrid__grid > *{
     margin-left: 20px; 
       
     
@@ -26,16 +33,12 @@
 @media only screen and (min-width:768px){
     .ProjectGrid__grid{
         
-        display:flex; 
-          justify-content: center;
+        display:grid; 
+        grid-gap:1em;
+    place-items: center;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
         
         
        }
-       .ProjectGrid__grid2{
-          
-        display:flex; 
-        justify-content: center;
-        
-        
-       }
+       
 }

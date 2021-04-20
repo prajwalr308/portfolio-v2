@@ -10,7 +10,7 @@
 .container1 .card {
   position: relative;
   border-radius: 10px;
-  width: 300px;
+  width: 350px;
 }
 
 .container1 .card .icon {
@@ -37,7 +37,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 250px;
+  width: 200px;
   transform: translate(-50%, -50%);
   font-size: 80px;
   transition: 0.7s;
@@ -124,4 +124,9 @@ i {
 .container1 a {
   text-decoration: none;
   color: #414141;
+}
+@media only screen and (min-width:378px){
+  .container1 .card .icon .fa {
+width: 250px;
+  }
 }
