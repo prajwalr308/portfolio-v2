@@ -5,7 +5,7 @@ import Skill from './skills/Skill'
 
 const SkillAndExp = () => {
    const [state, setstate] = useState({
-       'skillSelected':false,
+       'skillSelected':true,
        'expSelected':false,
    })
     const skillHandler=()=>{

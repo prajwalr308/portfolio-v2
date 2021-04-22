@@ -1,0 +1,15 @@
+.contact{
+    position: relative;
+}
+.contact__img{
+
+  
+    width: 100%;
+}
+.contact__twitterLogo{
+    position: absolute;
+    right: 30%;
+    top:10%;
+  
+
+}

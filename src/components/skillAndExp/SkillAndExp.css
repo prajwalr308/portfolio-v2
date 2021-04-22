@@ -34,7 +34,7 @@
     left: 0;
     right: 0;
     width: 50%;
-    border-bottom: 2px solid rgb(0, 35, 151);
+    border-bottom: 3.5px solid rgb(39, 255, 183);
     background-color: rgb(16, 148, 255);
     border-radius: 20px 0 0 0;
 }
@@ -46,7 +46,7 @@
     
     right: 0;
     width: 50%;
-    border-bottom: 2px solid rgb(0, 35, 151);
+    border-bottom: 3.5px solid rgb(39, 255, 183);
     background-color: rgb(16, 148, 255);
     border-radius: 0 20px 0 0;
   }
