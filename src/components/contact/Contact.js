@@ -1,5 +1,5 @@
 import React from 'react'
-import footer from '../../assets/oceanfooter.png'
+import footer from '../../assets/footer.png'
 import twit from '../../assets/twit.png'
 import './contact.css'
 

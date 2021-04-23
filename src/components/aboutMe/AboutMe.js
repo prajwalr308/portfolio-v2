@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-import coding from '../../assets/coding.svg'
+import coding from '../../assets/scuba.png'
 
 const AboutMe = () => {
     return (
