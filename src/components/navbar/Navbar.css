@@ -84,6 +84,8 @@
     display: flex;
     background-color: transparent;
     margin-left: 55%;
+   
+    bottom: initial;
   }
   .navbar__lists__desktop {
     display: block;
@@ -94,11 +96,14 @@
     display: flex;
     background-color: transparent;
     margin-left: 55%;
+  
+    bottom: initial;
   }
   .navbar__lists__mobileView > * {
     display: block;
-    margin-left: 4%;
+    margin-left: 8%;
     font-size: 1.1em;
+    margin-top: initial;
   }
   .navbar__lists__desktop > * {
     display: block;
