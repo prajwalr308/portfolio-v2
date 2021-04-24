@@ -1,17 +1,26 @@
 .contact{
-    position: relative;
-}
-.contact__img{
 
-   
-    width: 100%;
-   
-
+    color: rgb(56, 149, 255);
 }
-.contact__twitterLogo{
-    position: absolute;
-    right: 30%;
-    top:10%;
+.contact__logo{
+    display: flex;
+   justify-content: center;
+}
+.contact__logo> *{ 
   
-
+    width: 50px;
+    margin-right: 20px;
+}
+.contact__twitterLogo:hover{ 
+    transition: transform .9s;
+    transform: scale(1.5);
+    
+}
+.contact__githubLogo:hover{
+    transition: transform .9s;
+    transform: scale(1.5);
+}
+.contact__linkedinLogo:hover{
+    transition: transform .9s;
+    transform: scale(1.5);
 }

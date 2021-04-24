@@ -8,6 +8,7 @@ import AboutMe from './components/aboutMe/AboutMe';
 import SkillAndExp from './components/skillAndExp/SkillAndExp';
 import ProjectGrid from './components/projects/ProjectGrid';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SkillAndExp />
       <ProjectGrid />
       <Contact />
+      <Footer />
     </div>
   );
 }
