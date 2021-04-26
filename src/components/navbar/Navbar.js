@@ -7,7 +7,7 @@ const Navbar = () => {
     setOpen(!open);
   }
   return (
-    <div className="navbar">
+    <div id="home" className="navbar">
       <div className="navbar__menu">
         <div className={open ? "container" : "change"} onClick={openMenu}>
           <div className="bar1"></div>
@@ -20,10 +20,12 @@ const Navbar = () => {
           open ? "navbar__lists__desktop" : "navbar__lists__mobileView"
         }`}
       >
-        <li>home</li>
-        <li>about me</li>
-        <li>projects</li>
-        <li>resume</li>
+        <li><a href="#home"> Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">contact</a></li>
+        
       </ul>
     </div>
   );

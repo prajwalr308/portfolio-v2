@@ -4,11 +4,11 @@ import coding from '../../assets/scuba.png'
 
 const AboutMe = () => {
     return (
-        <div className="AboutMe">
+        <div id="about" className="AboutMe">
             <img className="AboutMe__image" src={coding} alt="code" />
-            <div>
+            <div className="AboutMe__text">
                 <h1>About Me</h1>
-                <p>lorem ipsum dolor sit amet</p>
+                <p>Hello! I'm prajwal,I enjoy creating things that live on the internet, whether that is websites, applications, or anything in between and I love learning about new technologies.</p>
             </div>
         </div>
     )

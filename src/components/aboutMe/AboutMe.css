@@ -5,6 +5,14 @@
 .AboutMe__image {
   width: 25%;
 }
+.AboutMe__text{
+  width: 95%;
+}
+
+.AboutMe__text h1{
+  color: rgb(35, 174, 255);
+}
+
 
 @media only screen and (min-width: 320px) {
   .AboutMe {
@@ -16,12 +24,18 @@
   }
 }
 @media only screen and (min-width: 768px) {
+  .AboutMe__text{
+    width: 50%;
+  }
+  .AboutMe__text p{
+    width: 80%;
+  }
   .AboutMe {
-  font-size:1em;
-   margin-left:0;
+    font-size:1em;
+    margin-left:0;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+     justify-content: space-around;
   }
 
   .AboutMe__image {
@@ -31,8 +45,6 @@
 
 @media only screen and (min-width: 1024px) {
   .AboutMe {
-
-
     top: 400px;
    
   }

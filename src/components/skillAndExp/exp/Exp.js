@@ -5,14 +5,15 @@ import './exp.css'
 
 const Exp = () => {
     const data={
-        body1:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, ',
-        body2:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,'
+        body1:'Tech stack was MERN stack.Worked on API integration,Forms,Audio recorder and player in one of the project related law firm.also worked school database website which stored all vehicles enter to the school here worked on displaying the list based on authorizeed and unauthorized vechiles',
+        body2:'Tech stack was React and Firebase.startup company.functionality worked on company was restuarant menu QR scanner.displaying menu using on QR code',
+        body3:'Tech stack MERN stack.startup company currently closed built the whole website.It was an eccomerce website that allowed you to order fishes online'
     }
     return (
         <div className="exp">
             <ExpCard title="webknot" body={data.body1} />
-            <ExpCard title="lfs" body={data.body2} />
-            <ExpCard title="lfs" body={data.body2} />
+            <ExpCard title="origano" body={data.body2} />
+            <ExpCard title="fishokart" body={data.body3} />
         </div>
     )
 }

@@ -3,4 +3,12 @@
 }
 .footer{
     margin-top: 5%;
+    position: relative;
+    margin-bottom: -110px;
+}
+.designed{
+    position: absolute;
+    left: 42%;
+    bottom: 2%;
+    color: white;
 }

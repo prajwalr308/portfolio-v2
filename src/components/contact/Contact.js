@@ -8,12 +8,12 @@ import './contact.css'
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <h1 style={{display:'grid',placeItems:"center"}}>Contact Me</h1>
             <div className="contact__logo">
-            <img className="contact__twitterLogo" src={twit} />
-            <img className="contact__githubLogo" src={git} />
-            <img className="contact__linkedinLogo" src={link} />
+            <a href="https://twitter.com/prajwalr308"><img className="contact__twitterLogo" src={twit} /></a>
+            <a href="https://github.com/prajwalr308"><img className="contact__githubLogo" src={git} /></a>
+            <a href="https://www.linkedin.com/in/prajwalrthedeveloper/"><img className="contact__linkedinLogo" src={link} /></a>
             </div>
         </div>
     )

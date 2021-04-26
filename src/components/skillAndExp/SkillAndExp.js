@@ -22,7 +22,7 @@ const SkillAndExp = () => {
     }
   
     return (
-        <div className="skill">
+        <div id="skill" className="skill">
             <div className="skill__buttons">
             <button className={state.skillSelected ? "skill__buttons__skills--selected": "skill__buttons__skills"} onClick={skillHandler} >skills</button>
             

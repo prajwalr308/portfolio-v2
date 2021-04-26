@@ -11,7 +11,7 @@ import amazon from '../../assets/amazon.png'
 
 const ProjectGrid = () => {
     return (
-        <div className="ProjectGrid">
+        <div id="project" className="ProjectGrid">
             <div className="ProjectGrid__titleContainer"><h1 className="ProjectGrid__heading">Projects</h1></div>
             
             <div className="ProjectGrid__grid">
