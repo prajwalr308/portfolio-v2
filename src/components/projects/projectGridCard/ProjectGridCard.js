@@ -16,7 +16,7 @@ const ProjectGridCard = (props) => {
             <div className="face face2">
                 <div className="content">
                     <h3>
-                        <a href="" target="_blank">{props.title}</a>
+                        <a href={props.link} >{props.title}</a>
                     </h3>
                     <p>{props.body}</p>
                 </div>

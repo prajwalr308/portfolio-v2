@@ -15,12 +15,12 @@ const ProjectGrid = () => {
             <div className="ProjectGrid__titleContainer"><h1 className="ProjectGrid__heading">Projects</h1></div>
             
             <div className="ProjectGrid__grid">
-            <ProjectGridCard body="twitter clone built using react" title="Twitter" img={Twitter} />
-          <ProjectGridCard body="github api project using react" title="github api"  img={github} />
-          <ProjectGridCard body="restaurant api project using react" title="Restaurant" img={Restaurant}/>
-          <ProjectGridCard body="ui design" title="ui" img={ui}/>
-          <ProjectGridCard body="amazon clone built using mern stack"  title="amazon"  img={amazon}/>
-          <ProjectGridCard body="twitter clone built using react" title="Twitter" img={Twitter}/>
+            <ProjectGridCard body="twitter clone built using react" title="Twitter" img={Twitter} link="https://twitter-clone-8d64a.web.app/" />
+          <ProjectGridCard body="github api project using react" title="github api"  img={github} link="https://github-react-api.netlify.app" />
+          <ProjectGridCard body="restaurant api project using react" title="Restaurant" img={Restaurant} link="https://prajwalr308.github.io/RestaurantFinder/" />
+          <ProjectGridCard body="ui design" title="ui" img={ui} link="https://freshgroceryreact.netlify.app" />
+          <ProjectGridCard body="amazon clone built using mern stack"  title="amazon"  img={amazon} link="https://reactamazonclone.herokuapp.com/" />
+          <ProjectGridCard body="twitter clone built using react" title="Twitter" img={Twitter} link="" />
             </div>
          
         </div>
