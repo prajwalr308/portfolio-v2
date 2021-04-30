@@ -1,6 +1,9 @@
 .footer__img{
     width: 100%;
 }
+.footer__img{
+    display: none;
+}
 .footer{
     margin-top: 5%;
     position: relative;
@@ -11,4 +14,9 @@
     left: 42%;
     bottom: 2%;
     color: white;
+}
+@media only screen and (min-width:768px){
+    .footer__img{
+        display: block;
+    }
 }
