@@ -13,10 +13,13 @@
     position: absolute;
     left: 42%;
     bottom: 2%;
-    color: white;
+    color: rgb(78, 78, 78);
 }
 @media only screen and (min-width:768px){
     .footer__img{
         display: block;
+    }
+    .designed{
+        color: rgb(255, 255, 255);
     }
 }
