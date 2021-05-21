@@ -11,13 +11,14 @@ html,body{
 
 .img{
   display: none;
-  width:100%;
+  width:50%;
 }
 @media only screen and (min-width: 768px) {
   .img{
     position: absolute;
-    top: 0;
-    z-index: -2;
+    top: 10%;
+    left: 25%;
+    z-index: 1;
     display: block;
   }
 }

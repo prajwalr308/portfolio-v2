@@ -27,6 +27,10 @@ const Navbar = () => {
         <li><a href="#contact">contact</a></li>
         
       </ul>
+      <div className="ocean">
+  <div className="wave"></div>
+  <div className="wave"></div>
+</div>
     </div>
   );
 };
