@@ -15,7 +15,10 @@ function App() {
     <div className="App">
     
       <Navbar />
+      <div className="blueBox"></div>
+     
       <img src={bg} className="img" />
+      <div className="thinLine"></div>
       <TypeWriter />
       <AboutMe />
       <SkillAndExp />

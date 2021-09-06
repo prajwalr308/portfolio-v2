@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import wolf from '../../assets/wolf.png'
 
 const Navbar = () => {
   const [open, setOpen] = useState(true);
@@ -8,6 +9,7 @@ const Navbar = () => {
   }
   return (
     <div id="home" className="navbar">
+      <img src={wolf} className="wolf" style={{width:"60px","marginLeft":"10px"}} />
       <div className="navbar__menu">
         <div className={open ? "container" : "change"} onClick={openMenu}>
           <div className="bar1"></div>

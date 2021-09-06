@@ -31,7 +31,9 @@
   display: inline-block;
   cursor: pointer;
 }
-
+.wolf{
+  display: none;
+}
 .bar1,
 .bar2,
 .bar3 {
@@ -70,6 +72,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .wolf{
+    display: block;
+   width:60px;margin-left:10px;
+  }
   .container {
     display: none;
   }

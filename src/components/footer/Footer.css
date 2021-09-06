@@ -10,9 +10,7 @@
     margin-bottom: -110px;
 }
 .designed{
-    position: absolute;
-    left: 42%;
-    bottom: 2%;
+  display: block;
     color: rgb(78, 78, 78);
 }
 @media only screen and (min-width:768px){
@@ -20,6 +18,10 @@
         display: block;
     }
     .designed{
+        position: absolute;
+        left: 42%;
+        bottom: 2%;
+        color: rgb(78, 78, 78);
         color: rgb(255, 255, 255);
     }
 }
